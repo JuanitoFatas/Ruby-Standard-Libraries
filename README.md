@@ -104,7 +104,9 @@ print $LOADED_FEATURES, $POSTMATCH, $PID, "\n"
 Questions?
 ----------
 
-[Tell me, bro.][]
+[Tell me, bro.][issues]
+
+[issues]: https://github.com/JuanitoFatas/Ruby-Standard-Libraries/issues/new
 
 How to Contribute?
 ------------------

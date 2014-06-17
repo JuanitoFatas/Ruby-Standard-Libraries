@@ -3,7 +3,9 @@ Ruby Standard Libraries
 
 Promote hidden gems in Ruby Stdlib.
 
-Some stdlibs need to require before use it.
+[Where does Ruby Stdlib lives?][rubystdlib]
+
+[rubystdlib]: https://github.com/ruby/ruby/tree/trunk/lib
 
 List of stdlibs that need to require
 ------------------------------------
@@ -13,16 +15,19 @@ TODO
 Table of Content
 ----------------
 
+List alphabetically:
+
 * :gem: [Abbrev]()
 * :gem: [English]()
 * :gem: [Forwardable]()
+* :gem: [OpenStruct]()
 * :gem: [Pathname]()
+* :gem: [Singleton]()
 
 Abbrev
 ------
 
-- Need to `require`? :o:
-- [Official documentation](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/abbrev/rdoc/Abbrev.html)
+- [Official documentation](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/abbrev/rdoc/Abbrev.html) :arrow_upper_right:
 
 ### Usage
 
@@ -62,8 +67,7 @@ Optional parameter `pattern` can be a `Regexp` or `String`
 English
 -------
 
-- Need to `require`? :o:
-- [Official documentation](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/English/rdoc/English.html)
+- [Official documentation](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/English/rdoc/English.html) :arrow_upper_right:
 
 ### Usage
 
@@ -97,17 +101,15 @@ $OUTPUT_FIELD_SEPARATOR = ' -- '
 print $LOADED_FEATURES, $POSTMATCH, $PID, "\n"
 ```
 
-Contributing
-------------
+Questions?
+----------
 
-TODO
+[Tell me, bro.][]
 
 How to Contribute?
 ------------------
 
-TODO
-
-Read [CONTRIBUTING](/CONTRIBUTING.md)
+Read [CONTRIBUTING](/CONTRIBUTING.md).
 
 License
 -------
@@ -119,6 +121,6 @@ License
 Author
 ------
 
-:yellow_heart: :blue_heart: :purple_heart: :heart: :green_heart: :heartbeat: :heartpulse: :two_hearts: :revolving_hearts: :cupid: :sparkling_heart:
+:yellow_heart: :blue_heart: :purple_heart: :heart: :green_heart: :heartbeat: :heartpulse: :two_hearts: :revolving_hearts: :cupid: :sparkling_heart: :two_hearts: :yellow_heart: :purple_heart: :sparkling_heart: :green_heart: :heartpulse: :heart: :cupid: :heartbeat: :revolving_hearts: :blue_heart:
 
 Written with love by @juanitofatas :sunglasses:.

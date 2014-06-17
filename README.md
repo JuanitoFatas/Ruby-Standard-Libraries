@@ -71,41 +71,29 @@ Reference cryptic global variable with plain English.
 
 Mappings
 
-| Without English | With English                |
-| --------------- | --------------------------- |
-| `$!`            | `$ERROR_INFO`               |
-| `$@`            | `$ERROR_POSITION`           |
-| `$;`            | `$FS`                       |
-| `$;`            | `$FIELD_SEPARATOR`          |
-| `$,`            | `$OFS`                      |
-| `$,`            | `$OUTPUT_FIELD_SEPARATOR`   |
-| `$/`            | `$RS`                       |
-| `$/`            | `$INPUT_RECORD_SEPARATOR`   |
-| `$\`            | `$ORS`                      |
-| `$\`            | `$OUTPUT_RECORD_SEPARATOR`  |
-| `$.`            | `$INPUT_LINE_NUMBER`        |
-| `$.`            | `$NR`                       |
-| `$_`            | `$LAST_READ_LINE`           |
-| `$>`            | `$DEFAULT_OUTPUT`           |
-| `$<`            | `$DEFAULT_INPUT`            |
-| `$$`            | `$PID`                      |
-| `$$`            | `$PROCESS_ID`               |
-| `$?`            | `$CHILD_STATUS`             |
-| `$~`            | `$LAST_MATCH_INFO`          |
-| `$=`            | `$IGNORECASE`               |
-| `$*`            | `$ARGV`                     |
-| `$&`            | `$MATCH`                    |
-| `$``            | `$PREMATCH`                 |
-| `$‘`            | `$POSTMATCH`                |
-| `$+`            | `$LAST_PAREN_MATCH`         |
+| Without English | With English                | Without English | With English                |
+| --------------- | --------------------------- | --------------- | --------------------------- |
+| `$!`            | `$ERROR_INFO`               | `$>`            | `$DEFAULT_OUTPUT`           |
+| `$@`            | `$ERROR_POSITION`           | `$<`            | `$DEFAULT_INPUT`            |
+| `$;`            | `$FS`                       | `$$`            | `$PID`                      |
+| `$;`            | `$FIELD_SEPARATOR`          | `$$`            | `$PROCESS_ID`               |
+| `$,`            | `$OFS`                      | `$?`            | `$CHILD_STATUS`             |
+| `$,`            | `$OUTPUT_FIELD_SEPARATOR`   | `$~`            | `$LAST_MATCH_INFO`          |
+| `$/`            | `$RS`                       | `$=`            | `$IGNORECASE`               |
+| `$/`            | `$INPUT_RECORD_SEPARATOR`   | `$*`            | `$ARGV`                     |
+| `$\`            | `$ORS`                      | `$&`            | `$MATCH`                    |
+| `$\`            | `$OUTPUT_RECORD_SEPARATOR`  | `$``            | `$PREMATCH`                 |
+| `$.`            | `$INPUT_LINE_NUMBER`        | `$‘`            | `$POSTMATCH`                |
+| `$.`            | `$NR`                       | `$+`            | `$LAST_PAREN_MATCH`         |
+| `$_`            | `$LAST_READ_LINE`           |                 |                             |
 
 ### Example
 
 ```ruby
-require "English"
+require 'English'
 
 $OUTPUT_FIELD_SEPARATOR = ' -- '
-"waterbuffalo" =~ /buff/
+'waterbuffalo' =~ /buff/
 print $LOADED_FEATURES, $POSTMATCH, $PID, "\n"
 ```
 

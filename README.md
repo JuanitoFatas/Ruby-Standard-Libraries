@@ -5,9 +5,9 @@ Promote hidden gems in Ruby Stdlib.
 
 Target version: Ruby 2.1.2.
 
-[Official Documentation links](http://www.ruby-doc.org/stdlib-2.1.2/)
+[Official Documentation links](http://www.ruby-doc.org/stdlib-2.1.2/).
 
-[Where does Ruby Stdlib lives?][rubystdlib]
+[Where does Ruby Stadard Libraries live?][rubystdlib]
 
 [rubystdlib]: https://github.com/ruby/ruby/tree/trunk/lib
 
@@ -141,10 +141,10 @@ Singleton
 
 ### Example
 
-Questions?
-----------
+Questions? Suggestions?
+-----------------------
 
-[Tell me, bro.][issues]
+[Tell me!][issues]
 
 [issues]: https://github.com/JuanitoFatas/Ruby-Standard-Libraries/issues/new
 
@@ -165,4 +165,4 @@ Author
 
 :yellow_heart: :blue_heart: :purple_heart: :heart: :green_heart: :heartbeat: :heartpulse: :two_hearts: :revolving_hearts: :cupid: :sparkling_heart: :two_hearts: :yellow_heart: :purple_heart: :sparkling_heart: :green_heart: :heartpulse: :heart: :cupid: :heartbeat: :revolving_hearts: :blue_heart:
 
-Written with love by @juanitofatas :sunglasses:.
+*Written with love by @juanitofatas :sunglasses:.*

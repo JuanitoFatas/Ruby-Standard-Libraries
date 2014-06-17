@@ -3,6 +3,10 @@ Ruby Standard Libraries
 
 Promote hidden gems in Ruby Stdlib.
 
+Target version: Ruby 2.1.2.
+
+[Official Documentation links](http://www.ruby-doc.org/stdlib-2.1.2/)
+
 [Where does Ruby Stdlib lives?][rubystdlib]
 
 [rubystdlib]: https://github.com/ruby/ruby/tree/trunk/lib
@@ -100,6 +104,42 @@ $OUTPUT_FIELD_SEPARATOR = ' -- '
 'waterbuffalo' =~ /buff/
 print $LOADED_FEATURES, $POSTMATCH, $PID, "\n"
 ```
+
+Forwardable
+-----------
+
+- [Official documentation]()
+
+### Usage
+
+### Example
+
+OpenStruct
+-----------
+
+- [Official documentation]()
+
+### Usage
+
+### Example
+
+Pathname
+-----------
+
+- [Official documentation]()
+
+### Usage
+
+### Example
+
+Singleton
+-----------
+
+- [Official documentation]()
+
+### Usage
+
+### Example
 
 Questions?
 ----------

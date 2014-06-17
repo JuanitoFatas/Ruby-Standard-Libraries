@@ -46,13 +46,13 @@ signature: `abbrev(words, pattern = nil)`
 => {"ruby"=>"ruby", "rub"=>"ruby", "ru"=>"ruby", "r"=>"ruby"}
 ```
 
-Optional parameter `pattern` can be a `Regexp` or `String`
+Optional parameter `pattern` can be a `Regexp` or `String`.
 
 `Regexp`: Will return result whose key contains given `pattern`:
 
 ```ruby
 > Abbrev.abbrev(%w[python perl], /yt/)
-=> {"python"=>"python", "pytho"=>"python", "pyth"=>"python", "pyt"=>"python", "py"=>"python", "perl"=>"perl", "per"=>"perl", "pe"=>"perl"}
+=> {"python"=>"python", "pytho"=>"python", "pyth"=>"python", "pyt"=>"python"}
 ```
 
 `String`: Will return result whose key has *prefix* of `pattern`:

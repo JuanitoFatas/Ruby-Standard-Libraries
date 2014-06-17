@@ -11,24 +11,19 @@ Target version: Ruby 2.1.2.
 
 [rubystdlib]: https://github.com/ruby/ruby/tree/trunk/lib
 
-List of stdlibs that need to require
-------------------------------------
-
-TODO
-
 Table of Content
 ----------------
 
 List alphabetically:
 
-* :gem: [Abbrev]()
-* :gem: [English]()
-* :gem: [Forwardable]()
-* :gem: [OpenStruct]()
-* :gem: [Pathname]()
-* :gem: [Shellwords]()
-* :gem: [Singleton]()
-* :gem: [YAML::Store]()
+* :gem: [Abbrev](#abbrev)
+* :gem: [English](#english)
+* :gem: [Forwardable](#forwardable)
+* :gem: [OpenStruct](#openstruct)
+* :gem: [Pathname](#pathname)
+* :gem: [Shellwords](#shellwords)
+* :gem: [Singleton](#singleton)
+* :gem: [YAML::Store](#yamlstore)
 
 Abbrev
 ------

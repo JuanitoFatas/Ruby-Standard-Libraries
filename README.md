@@ -26,7 +26,9 @@ List alphabetically:
 * :gem: [Forwardable]()
 * :gem: [OpenStruct]()
 * :gem: [Pathname]()
+* :gem: [Shellwords]()
 * :gem: [Singleton]()
+* :gem: [YAML::Store]()
 
 Abbrev
 ------
@@ -132,6 +134,15 @@ Pathname
 
 ### Example
 
+Shellwords
+-----------
+
+- [Official documentation]()
+
+### Usage
+
+### Example
+
 Singleton
 -----------
 
@@ -140,6 +151,16 @@ Singleton
 ### Usage
 
 ### Example
+
+YAML::Store
+-----------
+
+- [Official documentation](http://ruby-doc.org/stdlib-2.1.2/libdoc/yaml/rdoc/YAML/Store.html)
+
+### Usage
+
+### Example
+
 
 Questions? Suggestions?
 -----------------------
